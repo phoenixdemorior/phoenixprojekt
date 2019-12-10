@@ -1,0 +1,130 @@
+body {
+  font-family: "roboto", Times, sans-serif;
+  color: #696969;
+  background-color: #daedf4
+}
+
+.knapp {
+  background-color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "roboto";
+  border: solid;
+  display: block;
+  padding: 3px;
+  border-width: 2px;
+  width: fit-content;
+  text-decoration: none;
+  color: grey;
+}
+
+.contact {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 3vw;
+}
+
+.contactBorder {
+  border-radius: 20px;
+}
+
+.contactpop {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 4vw;
+}
+
+.contact-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inner {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border: solid 1px;
+  height: 20%;
+  width: 100%;
+  margin: auto;
+  display: block;
+  vertical-align: middle;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 3vw;
+}
+
+.inner:hover {
+  background-color: #588BAE;
+}
+
+.rubrik {
+  font-size: 40px;
+  color: darkblue;
+  font-family: "roboto";
+  font-style: normal;
+}
+
+.ommig1 {
+  font-size: 50px;
+  background-color: #daedf4;
+  text-align: center;
+}
+
+.ommig {
+  font-size: 30px;
+  background-color: #daedf4;
+  text-align: left;
+}
+
+.erfarenheter1 {
+  font-size: 50px;
+  background-color: #daedf4;
+  text-align: center;
+}
+
+.erfarenheter {
+  font-size: 30px;
+  background-color: #daedf4;
+  text-align: left;
+}
+
+.intressen1 {
+  font-size: 50px;
+  background-color: #daedf4;
+  text-align: center;
+}
+
+.intressen {
+  font-size: 30px;
+  background-color: #daedf4;
+  text-align: left;
+}
