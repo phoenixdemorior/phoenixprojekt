@@ -1,3 +1,4 @@
+/* här nedan delar jag in sidans olika kolumner och placerar den där jag vill de ska vara på sidan*/
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -25,37 +26,33 @@ section {
   text-align: center;
 }
 
-#netflixbild {
-  width: 60vw;
-  height: auto;
-}
-
-#burgerkingbild {
-  width: auto;
-  height: 20vw;
-}
-
+/* Här nedan fixar jag och placera min copyright som ligger längst ner på sidan*/
 #copyright {
   text-align: center;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
+  bottom: 1px;
   width: 100vw;
 }
 
+/*Här nedan placerar jag ut min knappar för de olika kontakter jag har*/
 #facebook {
   grid-column: 1/2;
   grid-row: 5/5;
+  background-color: #A4C3D8
 }
 
 #instagram {
   grid-column: 2/3;
   grid-row: 5/5;
+  background-color: #A4C3D8
 }
 
 #telefon {
   grid-column: 3/4;
   grid-row: 5/5;
+  background-color: #A4C3D8
 }
 
 #ommig {
@@ -78,6 +75,17 @@ section {
   grid-row: 1/1;
 }
 
+#burgerkingbild {
+  width: 300px;
+  height: 300px;
+}
+
+#netflixbild {
+  grid-column: auto;
+  height: 200px;
+}
+
+/* Nedan är en anpassning för mobiltelefon som gör att knapparna för kontakt flyttar från en rad längst ner på sidan till en rad längst till höger på sidan när skärmen krymper */
 @media screen and (max-width: 600px) {
   #facebook {
     grid-column: 3/4;
